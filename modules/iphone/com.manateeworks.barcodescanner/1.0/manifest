@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Barcode scanning module for iOS based on Manatee Library
+author: Krishna
+license: nil
+copyright: Reserved
+
+# these should not be edited
+name: manateeworks_ios
+moduleid: com.manateeworks.barcodescanner
+guid: 8d604ff3-43e3-4e73-b54e-782c540fa088
+platform: iphone
+minsdk: 3.5.1.GA

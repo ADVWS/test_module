@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Button onClick="closescan" top='10' left='10'> Close me</Button>
+		<Button onClick="pausescan" top='10' right='10'> Pause</Button>
+		<Button onClick="resumescan" top='30' right='10'> Resume</Button>
+	</Window>
+</Alloy>

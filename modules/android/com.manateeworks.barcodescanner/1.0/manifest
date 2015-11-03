@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: nil
+author: Krishna
+license: nil
+copyright: reserved
+
+# these should not be edited
+name: manateeworks_android
+moduleid: com.manateeworks.barcodescanner
+guid: 17ca4cf2-3c99-48ce-ba40-17d1eeecb998
+platform: android
+minsdk: 3.5.1.GA
