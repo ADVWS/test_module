@@ -362,18 +362,18 @@ exports.start = function(w){
 	window=w;
 	if(OS_IOS){
 	scanner = module.createView({
-			width: '100%',
-			height: '50%',
-			top: '20%',
+			width: 300,
+			height: 400,
+			top: 20,
 			left:0,
 			
 	});
 	}
 	else{
 	scanner = module.createScannerView({
-			width: '100%',
-			height: '50%',
-			top: '20%',
+			width: 300,
+			height: 400,
+			top: 20,
 			left:0,
 			lifecycleContainer:window
 	});

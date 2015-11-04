@@ -1,13 +1,13 @@
 
 function doClick(e) {
     
-    win1  =  Alloy.createController("scanner1");
-    
+ var   win1  =  Alloy.createController("scanner1");
+    win1 = null;
 }
 
 function doClick2(e) {
-	win2  =  Alloy.createController("scanner2");
-    
+	var	win2  =  Alloy.createController("scanner2");
+    	win2 = null;
 }
 
 

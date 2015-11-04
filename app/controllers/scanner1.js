@@ -7,9 +7,14 @@ function closescan(){
 QRscanner.start($.scanner1);
 $.scanner1.open();
 
+QRscanner.onScan(function(e){
+	alert(e);
+	QRscanner.pause();
+});
 $.scanner1.addEventListener('close',function(){
 	
-	QRscanner.close();
+//	
+	if(OS_IOS) QRscanner.close();
 	$.destroy();
 	
 });
