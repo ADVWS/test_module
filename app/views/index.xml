@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" top='20%' onClick="doClick">OPEN Scanner1</Label>
-		<Label id="label" top='70%' onClick="doClick2">Open Scanner2</Label>
+		<Button id="label" top='20%' onClick="doClick">OPEN Scanner1</Button>
+		<Button top='70%' onClick="doClick2">Open Scanner2</Button>
 	</Window>
 </Alloy>
